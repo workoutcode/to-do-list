@@ -1,0 +1,191 @@
+.hidden{
+    display: none;
+}
+body{
+    background-color: #b7031e;
+    position: relative;
+}
+/*login sheet part*/
+#login-sheet{
+    position: absolute;
+    text-align: center;
+    padding: 45.1vh 0;
+    top: 0 ;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 99;
+}
+#login-form input[type=text]{
+    border: 0;
+    border-bottom: 1px solid white;
+    background-color: inherit;
+    color: white;
+}
+#login-form input[type=submit]:hover{
+    background-color: b7031e;
+    color:white;
+    border:2px solid b7031e;
+}
+#login-form input::placeholder {
+    color:white;
+}
+/*background part*/
+img:last-child{
+    position:absolute;
+    height: 100vh;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+    opacity: 1;
+}
+/*low-bar*/
+#greeting{
+    margin-left: 500px;
+    color:#d2d2d2;
+    font-size: 50px;
+    font-weight: 700;
+    position: fixed;
+    bottom: 20px;
+    z-index: 2;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255), 5px 3px 0px rgb(65, 65, 65);
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 0 10px 5px 10px;
+    border-radius: 10px;
+}
+/*side bar rt*/
+.mu-no1{
+    color:white;
+    font-size: 33px;
+    font-weight: bold;
+    padding: 0px 0px 5px 18px;
+    background-color: rgb(255, 232, 0);
+}
+.mu-icon{
+    position: absolute;
+    left:30px;
+    top: 60px;
+}
+#clock{
+    display: inline-block;
+    background-color: rgb(255, 232, 0);
+    border-radius: 5px;
+    padding: 15px 15px 15px 40px;
+    color: black;
+    font-size: 25px;
+    margin: 10px 0 10px 27px;
+    text-align: center;
+    text-shadow: 1px 1px 0px #eee, 2px 2px 0px #000
+}
+#todo{
+    width: 360px;
+    height: 590px;
+    background-color: rgb(255, 232, 0);
+    margin-left: 10px;
+    border-radius: 10px;
+}
+#todo h1{
+    padding-top: 15px;
+    margin:0 15px 0px 15px;
+}
+#todo-form input{
+    margin: 15px 15px 0 15px;
+    width: 320px;
+}
+#todo-list li{
+    margin: 15px;
+}
+#todo-list span{
+    cursor: pointer;
+}
+/*wheatehr*/
+#weather{
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+}
+/*web link*/
+.link-box{
+    position: relative;
+}
+.link-box .youtube{
+    position: fixed;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgba(255, 18, 34, 0.2);
+    right: 50px;
+    top: 50px;
+}
+.link-box .youtube i{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.link-box .twitter{
+    position: fixed;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgba(255, 18, 34, 0.2);
+    right: 50px;
+    top: 120px;
+}
+.link-box .twitter i{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.link-box .instagram{
+    position: fixed;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgba(255, 18, 34, 0.2);
+    right: 50px;
+    top:  190px;
+}
+.link-box .instagram i{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.link-box .homepage{
+    position: fixed;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgba(255, 18, 34, 0.2);
+    right: 50px;
+    top: 260px;
+}
+.link-box .homepage i{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
